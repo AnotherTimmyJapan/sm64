@@ -33,7 +33,7 @@ $(eval $(call validate-option,COMPILER,ido gcc))
 #   eu - builds the 1997 PAL version
 #   sh - builds the 1997 Japanese Shindou version, with rumble pak support
 #   cn - builds the 2003 Chinese iQue version
-VERSION ?= us
+VERSION ?= jp
 $(eval $(call validate-option,VERSION,jp us eu sh cn))
 
 ifeq      ($(VERSION),jp)
